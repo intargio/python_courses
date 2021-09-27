@@ -1,4 +1,4 @@
-# Task: Create a prigram that prints a rectangle with X width and Y heinght using "X" symbol.
+# Task: Create a program that prints a rectangle with X width and Y height using "X" symbol.
 # Input: integer X, integer Y.
 # Output: rectange out of X'es.
 #
