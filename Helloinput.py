@@ -1,2 +1,2 @@
-x = input()
-print("Hello, " + x + "!")
+input = input()
+print("Hello, " + input + "!")
