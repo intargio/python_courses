@@ -4,6 +4,6 @@
 #
 # Example:
 #   Enter radius: 4.5
-#   Volume of a spehere with radius 4 is 381.51
+#   Volume of a spehere with radius 4.5 is 381.51
 #
 # Write your solution below.
