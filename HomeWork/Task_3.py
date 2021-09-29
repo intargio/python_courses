@@ -8,3 +8,7 @@
 #   Square root of 144 is 12
 #
 # Write your solution below.
+x = int(input("Введите число, из которого необходимо извлечь квадратный корень: "))
+import math
+y = math.sqrt(x)
+print("Квадратный корень из числа " + str(x) + " это " + str(y) + ".")

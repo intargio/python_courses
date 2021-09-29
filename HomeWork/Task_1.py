@@ -7,3 +7,6 @@
 #   Volume of a spehere with radius 4.5 is 381.51
 #
 # Write your solution below.
+r = float(input("Напишите радиус вашей сферы в метрах: "))
+v = ( 4 / 3 ) * 3.14 * ( r ** 3 )
+print("Объем вашей сферы равен ", v, " кубических метров.")

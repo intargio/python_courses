@@ -10,3 +10,10 @@
 #   XXXX
 #
 # Write your solution below.
+x = int(input("Напишите ширину прямоугольника: "))
+y = int(input("Напишите длина прямоугольника: "))
+print("Ваш прямоугольник:")
+print(x * "X")
+for i in range(2, y):
+    print("X" +  (x - 2) * " " + "X")
+print(x * "X")
