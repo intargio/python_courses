@@ -1,5 +1,9 @@
-x = 10
-y = 0
-while y < x:
-    y+=1
+y = 1
+# arr = [ 1, 2, 3 ]
+while y <= 10:
+    #i = arr[y]
     print(y)
+    y += 1
+
+
+
