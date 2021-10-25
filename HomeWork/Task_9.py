@@ -1,7 +1,5 @@
 x = int(input("Введите число: "))
-i = 1
 y = 1
-while i <= x:
+for i in range(1, x+1):
     y *= i
-    i += 1
-print("Факториал числа", x, "равен", y, ".")
+print("Факториал числа {}, равен {}.".format(x, y))

@@ -1,12 +1,19 @@
-from fractions import Fraction 
-e = Fraction(0)
-f = Fraction(1)
-n = Fraction(1)
+def factorial(x):
+    y = 1
+    for i in range(1, x + 1):
+        y *= i
+    return y
+
+
+a = 1
+e = 1
 while True:
-    d = Fraction(1) / f 
-    if d < Fraction(1, 10**40): 
+    x = 1 / factorial(a)
+    e += x
+    a += 1
+    if x <= 0.001:
         break
-    e += d 
-    f *= n 
-    n += Fraction(1) 
-print("Можете объяснить как это работает, когда проверите?. И как убрать лишний пробел перед точкой в конце? Число е равно: ",float(e), ".")
+print(e)
+    
+
+
