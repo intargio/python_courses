@@ -1,8 +1,2 @@
-def generateWelcome(inStr):
-    return 'Hello, ' + inStr
-
-def getName():
-    return input("Type your name: ")
-
-
-print(generateWelcome(getName()))
+x = 6280 *  13.2 * 0.21 / ( 340 * 100 ) 
+print(x)

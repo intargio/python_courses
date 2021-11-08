@@ -1,11 +1,10 @@
-def fibonacci(i):
-    import math
-    SQRT5 = math.sqrt(5)
-    PHI = (SQRT5 + 1) / 2
-    return int(PHI ** i / SQRT5 + 0.5)
- 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for n in range(n):
+        a, b = b, a + b
+    return a
 
 
-for i in range(int(input("Введите нужное количество чисел Фибоначчи: " ))):
-    print("Порядковый номер числа:", i+1)
-    print("Число Фибоначчи:",fibonacci(i))
+for i in range(10):
+    print(fibonacci(i)) # 0 1 1 2 3 5 8 13 21 34

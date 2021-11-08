@@ -1,4 +1,3 @@
-
 def my_max(first, second):
     return first if first > second else second
     
