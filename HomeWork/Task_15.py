@@ -2,7 +2,8 @@ def fibonacci(n):
     a = 0
     b = 1
     for n in range(n):
-        a, b = b, a + b
+        a = b
+        b = a + b   
     return a
 
 
